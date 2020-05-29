@@ -10,7 +10,7 @@ public class problem1783 {
 
         if(n==1){count = 1;}
         else if(n==2){
-            int num = (m-1)/2;
+            int num = (m+1)/2;
             if(num>4){count = 4;}
             else{ count = num;}
         }
